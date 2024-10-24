@@ -6,7 +6,7 @@
 /*   By: silndoj <silndoj@student.42heilbronn.de>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/09 12:39:52 by silndoj           #+#    #+#             */
-/*   Updated: 2024/08/22 05:46:00 by silndoj          ###   ########.fr       */
+/*   Updated: 2024/10/24 18:48:32 by silndoj          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,6 +18,7 @@
 # include <stdlib.h>
 # include "get_next_line.h"
 # include "ft_printf.h"
+# include "garbage_collector.h"
 
 size_t	ft_strlen(const char *str);
 size_t	ft_strlcat(char *dst, const char *src, size_t dstsize);
