@@ -1,72 +1,41 @@
-Library = libft
+Library		:=	libft
+NAME		:=	libft.a
+INCL 		:=	-I./includes
+CFLAGS		:=	-Wall -Wextra -Werror
+CC			:=	cc
 
-NAME	= libft.a
+OBJ					:= 	obj
 
-CFLAGS	= -Wall -Wextra -Werror
+LIBFT_DIR			:=	libft
+LIBFT_SRC			:=	$(wildcard $(LIBFT_DIR)/*.c)
+LIBFT_OBJ			:=	$(LIBFT_SRC:$(LIBFT_DIR)/%.c=$(OBJ)/%.o)
 
-SRC 	=	ft_isalnum.c 	\
-			ft_bzero.c 		\
-			ft_isalpha.c 	\
-			ft_isascii.c 	\
-			ft_isdigit.c 	\
-			ft_isprint.c 	\
-			ft_memcpy.c		\
-			ft_memmove.c	\
-			ft_memset.c		\
-			ft_strlen.c		\
-			ft_strlcpy.c 	\
-			ft_strlcat.c	\
-			ft_toupper.c 	\
-			ft_tolower.c 	\
-			ft_strrchr.c 	\
-			ft_strchr.c		\
-			ft_strncmp.c 	\
-			ft_memchr.c		\
-			ft_memcmp.c		\
-			ft_strnstr.c 	\
-			ft_atoi.c 		\
-			ft_calloc.c		\
-			ft_strdup.c		\
-			ft_substr.c		\
-			ft_strjoin.c 	\
-			ft_strtrim.c 	\
-			ft_split.c		\
-			ft_itoa.c 		\
-			ft_strmapi.c 	\
-			ft_striteri.c 	\
-			ft_putchar_fd.c \
-			ft_putstr_fd.c 	\
-			ft_putendl_fd.c \
-			ft_putnbr_fd.c	\
-			print_char.c	\
-			print_nbr.c		\
-			print_ptr.c		\
-			print_str.c		\
-			print_uint.c	\
-			print_ux.c		\
-			print_x.c		\
-			printf.c		\
-			get_next_line.c \
-			get_next_line_utils.c
+GNL_DIR				:=	gnl
+GNL_SRC				:=	$(wildcard $(GNL_DIR)/*.c)
+GNL_OBJ				:=	$(GNL_SRC:$(GNL_DIR)/%.c=$(OBJ)/%.o)
 
-OBJ			= 	obj
-OBJ_MAIN	=	$(SRC:%.c=$(OBJ)/%.o)
+GC_DIR				:=	gc
+GC_SRC				:=	$(wildcard $(GC_DIR)/*.c)
+GC_OBJ				:=	$(GC_SRC:$(GC_DIR)/%.c=$(OBJ)/%.o)
 
-$(NAME) : $(OBJ_MAIN)
+PRINTF_DIR			:=	printf
+PRINTF_SRC			:=	$(wildcard $(PRINTF_DIR)/*.c)
+PRINTF_OBJ			:=	$(PRINTF_SRC:$(PRINTF_DIR)/%.c=$(OBJ)/%.o)
+
+$(NAME) : $(PRINTF_OBJ) $(LIBFT_OBJ) $(GNL_OBJ) $(GC_OBJ)
 	ar rcs $(NAME) $(OBJ)/*
 
-$(OBJ)/%.o:	%.c
+$(OBJ)/%.o: $(PRINTF_SRC) $(LIBFT_SRC) $(GNL_SRC) $(GC_SRC)
 					@mkdir -p $(OBJ)
 					@cc $(CFLAGS) -c $< -o $@
 
 all: $(NAME)
 
 clean:
-	rm -rf $(OBJ)/*
+	rm -rf $(OBJ)
 
 fclean: clean
 	rm -rf $(NAME)
-	rm -rf $(OBJ)
 
 re: fclean all
 
