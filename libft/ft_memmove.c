@@ -6,11 +6,11 @@
 /*   By: silndoj <silndoj@student.42heilbronn.de>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/08 12:13:54 by silndoj           #+#    #+#             */
-/*   Updated: 2024/10/24 16:35:37 by silndoj          ###   ########.fr       */
+/*   Updated: 2024/10/24 19:29:42 by silndoj          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "includes/libft.h"
+#include "../includes/libft.h"
 
 void	*ft_memmove(void *dest, const void *src, size_t len)
 {

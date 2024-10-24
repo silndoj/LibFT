@@ -6,11 +6,11 @@
 /*   By: silndoj <silndoj@student.42heilbronn.de>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/11 15:34:44 by silndoj           #+#    #+#             */
-/*   Updated: 2024/10/24 16:39:58 by silndoj          ###   ########.fr       */
+/*   Updated: 2024/10/24 19:31:24 by silndoj          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "includes/libft.h"
+#include "../includes/libft.h"
 
 size_t	ft_strlcat(char *dst, const char *src, size_t dstsize)
 {

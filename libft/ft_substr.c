@@ -6,11 +6,11 @@
 /*   By: silndoj <silndoj@student.42heilbronn.de>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/14 16:30:37 by silndoj           #+#    #+#             */
-/*   Updated: 2024/10/24 16:42:34 by silndoj          ###   ########.fr       */
+/*   Updated: 2024/10/24 19:32:37 by silndoj          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "includes/libft.h"
+#include "../includes/libft.h"
 
 char	*ft_substr(char const *s, unsigned int start, size_t len)
 {

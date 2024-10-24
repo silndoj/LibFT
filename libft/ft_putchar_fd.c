@@ -6,11 +6,11 @@
 /*   By: silndoj <silndoj@student.42heilbronn.de>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/17 23:06:00 by silndoj           #+#    #+#             */
-/*   Updated: 2024/10/24 16:36:39 by silndoj          ###   ########.fr       */
+/*   Updated: 2024/10/24 19:30:00 by silndoj          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "includes/libft.h"
+#include "../includes/libft.h"
 
 void	ft_putchar_fd(char c, int fd)
 {

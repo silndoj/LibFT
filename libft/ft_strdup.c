@@ -6,11 +6,11 @@
 /*   By: silndoj <silndoj@student.42heilbronn.de>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/14 14:01:19 by silndoj           #+#    #+#             */
-/*   Updated: 2024/10/24 16:39:04 by silndoj          ###   ########.fr       */
+/*   Updated: 2024/10/24 19:30:54 by silndoj          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "includes/libft.h"
+#include "../includes/libft.h"
 
 char	*ft_strdup(const char *s1)
 {

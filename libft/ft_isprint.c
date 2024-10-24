@@ -6,11 +6,11 @@
 /*   By: silndoj <silndoj@student.42heilbronn.de>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/06 18:46:37 by silndoj           #+#    #+#             */
-/*   Updated: 2024/10/24 16:34:05 by silndoj          ###   ########.fr       */
+/*   Updated: 2024/10/24 19:19:46 by silndoj          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "includes/libft.h"
+#include "../includes/libft.h"
 
 int	ft_isprint(int c)
 {

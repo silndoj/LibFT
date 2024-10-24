@@ -6,11 +6,11 @@
 /*   By: silndoj <silndoj@student.42heilbronn.de>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/20 15:03:52 by silndoj           #+#    #+#             */
-/*   Updated: 2024/10/24 16:40:53 by silndoj          ###   ########.fr       */
+/*   Updated: 2024/10/24 19:31:52 by silndoj          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "includes/libft.h"
+#include "../includes/libft.h"
 
 char	*ft_strmapi(const char *s, char (*f)(unsigned int, char))
 {

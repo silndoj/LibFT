@@ -6,11 +6,11 @@
 /*   By: silndoj <silndoj@student.42heilbronn.de>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/06 18:35:41 by silndoj           #+#    #+#             */
-/*   Updated: 2024/10/24 16:33:17 by silndoj          ###   ########.fr       */
+/*   Updated: 2024/10/24 19:17:06 by silndoj          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "includes/libft.h"
+#include "../includes/libft.h"
 
 int	ft_isascii(int c)
 {

@@ -6,11 +6,11 @@
 /*   By: silndoj <silndoj@student.42heilbronn.de>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/15 10:59:47 by silndoj           #+#    #+#             */
-/*   Updated: 2024/10/24 16:42:19 by silndoj          ###   ########.fr       */
+/*   Updated: 2024/10/24 19:32:30 by silndoj          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "includes/libft.h"
+#include "../includes/libft.h"
 
 char	*ft_strtrim(const char *s1, const char *set)
 {

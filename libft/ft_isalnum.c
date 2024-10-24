@@ -6,11 +6,11 @@
 /*   By: silndoj <silndoj@student.42heilbronn.de>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/06 18:08:07 by silndoj           #+#    #+#             */
-/*   Updated: 2024/10/24 16:32:34 by silndoj          ###   ########.fr       */
+/*   Updated: 2024/10/24 19:16:38 by silndoj          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "includes/libft.h"
+#include "../includes/libft.h"
 
 int	ft_isalnum(int c)
 {

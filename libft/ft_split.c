@@ -6,11 +6,11 @@
 /*   By: silndoj <silndoj@student.42heilbronn.de>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/18 15:59:50 by silndoj           #+#    #+#             */
-/*   Updated: 2024/10/24 16:38:26 by silndoj          ###   ########.fr       */
+/*   Updated: 2024/10/24 19:30:37 by silndoj          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "includes/libft.h"
+#include "../includes/libft.h"
 
 static int	c_substr(char c, char dm)
 {

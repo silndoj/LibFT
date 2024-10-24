@@ -6,11 +6,11 @@
 /*   By: silndoj <silndoj@student.42heilbronn.de>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/06 17:29:24 by silndoj           #+#    #+#             */
-/*   Updated: 2024/10/24 16:33:43 by silndoj          ###   ########.fr       */
+/*   Updated: 2024/10/24 19:19:34 by silndoj          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "includes/libft.h"
+#include "../includes/libft.h"
 
 int	ft_isdigit(int c)
 {

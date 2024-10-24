@@ -6,11 +6,11 @@
 /*   By: silndoj <silndoj@student.42heilbronn.de>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/20 13:22:25 by silndoj           #+#    #+#             */
-/*   Updated: 2024/10/24 16:34:26 by silndoj          ###   ########.fr       */
+/*   Updated: 2024/10/24 19:19:57 by silndoj          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "includes/libft.h"
+#include "../includes/libft.h"
 
 static int	int_len(int n)
 {
